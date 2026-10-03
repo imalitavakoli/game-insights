@@ -37,6 +37,9 @@
       "strings": "on",
     },
     "spellright.notificationClass": "hint",
+    "files.associations": {
+      "CODEOWNERS": "ignore",
+    },
     "comment-divider.shouldLengthIncludeIndent": true,
     "comment-divider.mainHeaderFiller": "/",
     "comment-divider.subheaderFiller": "/",
