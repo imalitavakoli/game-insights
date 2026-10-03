@@ -28,14 +28,49 @@ You do not install this repo's packages. The game skills are the files under `.a
 
 If one of those three readings is missing, play style stops.
 
-You receive the counts, the order of events, a score and a separate confidence, and a note a designer can check. A thin trace leaves the score out. The reading is not a personality score. Each example below is synthetic. A real export is read the same way.
+You receive the counts, the order of events, a separate confidence, and a note a designer can check. Exploration, risk-taking, and experimentation each report how often the mapped behavior showed up. A higher count means it showed up in more sessions. The designer compares that count to the behavior they built the game for. In the exploration example below, 2 of 3 sessions visit an optional place. A designer who built those places for players to find reads 2 of 3 as players reaching them. A designer who built them as rare detours reads the same 2 of 3 as the main path losing people. Play style has no score of its own. It sets those three counts beside progression and resource. A thin trace leaves the count out. The reading describes what these sessions did. Each example below is synthetic. A real export is read the same way.
 
 ### Game analysis
 
-- [`x-exploration-reviewer`](.agents/skills/x-exploration-reviewer/SKILL.md) — exploration from a GameAnalytics export, once the mapping beside the logs is confirmed. [Example](.agents/skills/x-exploration-reviewer/assets/examples/report.md). [Methodology](.agents/skills/x-exploration-reviewer/references/methodology.md).
-- [`x-risk-taking-reviewer`](.agents/skills/x-risk-taking-reviewer/SKILL.md) — a harder option taken while a safer one was available, kept separate from the outcome. [Example](.agents/skills/x-risk-taking-reviewer/assets/examples/report.md). [Methodology](.agents/skills/x-risk-taking-reviewer/references/methodology.md).
-- [`x-experimentation-reviewer`](.agents/skills/x-experimentation-reviewer/SKILL.md) — variation across attempts from a GameAnalytics export, once the mapping beside the logs is confirmed. [Example](.agents/skills/x-experimentation-reviewer/assets/examples/report.md). [Methodology](.agents/skills/x-experimentation-reviewer/references/methodology.md).
-- [`x-play-style-reviewer`](.agents/skills/x-play-style-reviewer/SKILL.md) — the three readings together with progression and resource patterns. [Example](.agents/skills/x-play-style-reviewer/assets/examples/report.md). [Methodology](.agents/skills/x-play-style-reviewer/references/methodology.md).
+#### [Exploration](.agents/skills/x-exploration-reviewer/SKILL.md)
+
+**Purpose.** Show a designer whether players visit optional places while a goal is available.
+
+**Measures.** Optional-area events, and how many sessions contain them, under that goal.
+
+**Example.** Three sessions all finish the level. Two of them also visit a cave or a grove. Score: 3 optional-area events in 2 of 3 sessions. The session that only finishes the level stays in the count.
+
+[Full report](.agents/skills/x-exploration-reviewer/assets/examples/report.md) · [Methodology](.agents/skills/x-exploration-reviewer/references/methodology.md)
+
+#### [Risk-taking](.agents/skills/x-risk-taking-reviewer/SKILL.md)
+
+**Purpose.** Show a designer when players pick the harder option while a safer one is also there.
+
+**Measures.** Sessions that contain both. The later win or failure stays beside that count.
+
+**Example.** One session takes the side door and fails. One session takes the side door and the boss fight, then completes the level. Score: 1 of the 2 sessions that showed the safer alternative also took the harder option. The failure stays a progression fact.
+
+[Full report](.agents/skills/x-risk-taking-reviewer/assets/examples/report.md) · [Methodology](.agents/skills/x-risk-taking-reviewer/references/methodology.md)
+
+#### [Experimentation](.agents/skills/x-experimentation-reviewer/SKILL.md)
+
+**Purpose.** Show a designer whether players try a different option on a later attempt.
+
+**Measures.** Changes of that mapped option, in order, across attempts.
+
+**Example.** One session equips a sword, fails, then a bow. One session stays on the sword and completes. One session equips a bow, fails, then a staff. Score: the equipped option changed in 2 of 3 sessions. The later complete stays a progression fact.
+
+[Full report](.agents/skills/x-experimentation-reviewer/assets/examples/report.md) · [Methodology](.agents/skills/x-experimentation-reviewer/references/methodology.md)
+
+#### [Play style](.agents/skills/x-play-style-reviewer/SKILL.md)
+
+**Purpose.** Name the session a designer should open in the game. It says which sessions finished the level, which session failed, and what that session spent.
+
+**Measures.** Completes, fails, and resource counts from the export, set next to the three scores already in hand.
+
+**Example.** Two sessions finish level 1. Session 2 fails level 1 and spends 10 gold. The designer opens session 2 and looks up that same session in the other three readings. The behavior those readings recorded for session 2 is the path they play: the safe door, the hard door, a weapon change, or an optional place. That path is the place to change, because that is where a session lost and spent gold. If those readings never name session 2, the designer still opens the failed level and does not guess which behavior went with the loss. There is no single style score.
+
+[Full report](.agents/skills/x-play-style-reviewer/assets/examples/report.md) · [Methodology](.agents/skills/x-play-style-reviewer/references/methodology.md)
 
 ## Contributor
 
