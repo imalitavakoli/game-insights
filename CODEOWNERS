@@ -55,6 +55,8 @@ CODEOWNERS @Vida
 
 /.agents/skills/x-experimentation-reviewer/ @Vida
 /.agents/skills/x-exploration-reviewer/ @Vida
+/.agents/skills/x-play-style-reviewer/ @Vida
+/.agents/skills/x-risk-taking-reviewer/ @Vida
 
 # //////////////////////////////////////////////////////////////////////////// #
 # .claude/                                                                     #
@@ -67,6 +69,8 @@ CODEOWNERS @Vida
 
 /.claude/skills/x-experimentation-reviewer/ @Vida
 /.claude/skills/x-exploration-reviewer/ @Vida
+/.claude/skills/x-play-style-reviewer/ @Vida
+/.claude/skills/x-risk-taking-reviewer/ @Vida
 
 # //////////////////////////////////////////////////////////////////////////// #
 # .cursor/                                                                     #

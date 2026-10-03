@@ -1,0 +1,1 @@
+Score: 1 of the 2 sessions that showed the safer alternative also took the harder option. One session never showed the safer alternative and is not in the score. Confidence: one player, three sessions. A failure is not the risk-taking score.

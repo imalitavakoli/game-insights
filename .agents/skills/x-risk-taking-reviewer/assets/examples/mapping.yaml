@@ -1,0 +1,7 @@
+- pattern: "fight:*"
+  meaning: harder option
+  construct: risk-taking
+  safer: "door:side"
+- pattern: "door:*"
+  meaning: safer alternative
+  construct: risk-taking
