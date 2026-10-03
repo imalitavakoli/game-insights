@@ -1,0 +1,19 @@
+{
+  "name": "game-insights",
+  "version": "1.0.0",
+  "description": "Skills to help AI Agents provide Insights based on Game Analytics.",
+  "license": "Copyright (c) 2026 Vida Taghiyar",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "20.19.9",
+    "@typescript-eslint/eslint-plugin": "7.16.0",
+    "@typescript-eslint/parser": "7.16.0",
+    "@typescript-eslint/utils": "^7.16.0",
+    "eslint": "8.57.0",
+    "eslint-config-prettier": "10.0.0",
+    "jsonc-eslint-parser": "^2.1.0",
+    "prettier": "3.6.2",
+    "ts-node": "10.9.1",
+    "typescript": "5.9.2"
+  }
+}
