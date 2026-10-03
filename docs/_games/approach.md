@@ -6,7 +6,7 @@ What this repository is for, which problem each cited paper leaves open, and wha
 
 This is a proof of concept of a method. A developer submits a real GameAnalytics export and receives a reading tied to those events, after confirming what the game-specific names mean. It is not a result from a shipped game.
 
-The four analyses are exploration, risk-taking, experimentation, and play style. Each one is a reviewer skill: it judges telemetry the caller supplies and returns a score, a separate confidence, the evidence, and the data quality. Counts and sequences are computed. The skill does not invent them. The skill files are the next addition under `.agents/skills/`. They follow this page and the log contract.
+The four analyses are exploration, risk-taking, experimentation, and play style. Each one judges telemetry the caller supplies and returns a score, a separate confidence, the evidence, and the data quality. Counts and sequences are computed from the confirmed events. Each analysis follows this page and the log contract.
 
 &nbsp;
 

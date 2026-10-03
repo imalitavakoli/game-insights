@@ -4,10 +4,15 @@ Skills that help an AI agent turn gameplay telemetry into a reading a designer c
 
 ## Research
 
-A developer submits a GameAnalytics export. The agent asks only where the event names have no shared meaning, confirms that mapping, and then reports what the sessions show about exploration, risk-taking, experimentation, and play style, with the evidence and a separate confidence. The reading is for a designer deciding what to check in the game. It is a proof of concept of that method. The four analyses are specified in the approach. Their skill files are the next addition under `.agents/skills/`. It is not a result from a shipped game, and it is not a personality score.
+A developer submits a GameAnalytics export. The agent asks only where the event names have no shared meaning, confirms that mapping, and then reports what the sessions show about exploration, risk-taking, experimentation, and play style, with the evidence and a separate confidence. The reading is for a designer deciding what to check in the game. It is a proof of concept of that method. The four analyses are specified in the approach. It is not a result from a shipped game, and it is not a personality score.
 
 - [Approach](docs/_games/approach.md) — each paper's problem, and what this repository does about it.
 - [Log contract](docs/_games/log-contract.md) — the export, the mapping, and the confirmation required before any measurement.
+
+### Game analysis
+
+- [`x-exploration-reviewer`](.agents/skills/x-exploration-reviewer/SKILL.md) — exploration from a GameAnalytics export, once the mapping beside the logs is confirmed. [Example](.agents/skills/x-exploration-reviewer/assets/examples/report.md). [Methodology](.agents/skills/x-exploration-reviewer/references/methodology.md).
+- [`x-experimentation-reviewer`](.agents/skills/x-experimentation-reviewer/SKILL.md) — variation across attempts from a GameAnalytics export, once the mapping beside the logs is confirmed. [Example](.agents/skills/x-experimentation-reviewer/assets/examples/report.md). [Methodology](.agents/skills/x-experimentation-reviewer/references/methodology.md).
 
 ## Start here
 

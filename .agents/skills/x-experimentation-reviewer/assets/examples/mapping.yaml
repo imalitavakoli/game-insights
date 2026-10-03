@@ -1,0 +1,3 @@
+- pattern: "loadout:*"
+  meaning: equipped option
+  construct: experimentation

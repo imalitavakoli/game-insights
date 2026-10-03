@@ -53,14 +53,20 @@ CODEOWNERS @Vida
 /.agents/skills/x-codeowners-editor/ @Ali
 /.agents/skills/x-skill-build-helper/ @Ali
 
+/.agents/skills/x-experimentation-reviewer/ @Vida
+/.agents/skills/x-exploration-reviewer/ @Vida
+
 # //////////////////////////////////////////////////////////////////////////// #
 # .claude/                                                                     #
 # //////////////////////////////////////////////////////////////////////////// #
 
 /.claude/plugins/ @Ali
+/.claude/settings.json @Ali
 /.claude/skills/x-codeowners-editor/ @Ali
 /.claude/skills/x-skill-build-helper/ @Ali
-/.claude/settings.json @Ali
+
+/.claude/skills/x-experimentation-reviewer/ @Vida
+/.claude/skills/x-exploration-reviewer/ @Vida
 
 # //////////////////////////////////////////////////////////////////////////// #
 # .cursor/                                                                     #

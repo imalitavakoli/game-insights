@@ -1,0 +1,6 @@
+- pattern: "area:*"
+  meaning: optional area
+  construct: exploration
+  goal: "Complete:world:level1"
+- pattern: "ui:*"
+  meaning: ignore
