@@ -17,6 +17,7 @@ game-insights/
 ├── .cursor/
 │   └── cloud/                    // Cursor Cloud pin install and VM notes.
 ├── docs/                         // Workspace documentation. The README indexes it.
+│   ├── _games/                   // Player-behavior research: the log contract and the academic argument. Agents read this folder.
 │   ├── agents/                   // How to edit AGENTS.md, CONTEXT.md, and where a fact lives.
 │   ├── getting-started/
 │   ├── guidelines/

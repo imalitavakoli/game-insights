@@ -1,6 +1,13 @@
 # game-insights
 
-Skills that help an AI agent turn game analytics into insights.
+Skills that help an AI agent turn gameplay telemetry into a reading a designer can check.
+
+## Research
+
+A developer submits a GameAnalytics export. The agent asks only where the event names have no shared meaning, confirms that mapping, and then reports what the sessions show about exploration, risk-taking, experimentation, and play style, with the evidence and a separate confidence. The reading is for a designer deciding what to check in the game. It is a proof of concept of that method. The four analyses are specified in the approach. Their skill files are the next addition under `.agents/skills/`. It is not a result from a shipped game, and it is not a personality score.
+
+- [Approach](docs/_games/approach.md) — each paper's problem, and what this repository does about it.
+- [Log contract](docs/_games/log-contract.md) — the export, the mapping, and the confirmation required before any measurement.
 
 ## Start here
 
@@ -24,6 +31,11 @@ Open a pull request using the [PR rules](docs/guidelines/pr-rules.md). A fork us
 ## Docs
 
 Reference for this workspace.
+
+### Games
+
+- [Approach](docs/_games/approach.md)
+- [Log contract](docs/_games/log-contract.md)
 
 ### Getting started
 
