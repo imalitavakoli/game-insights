@@ -1,0 +1,19 @@
+{
+  "name": "x-local-marketplace",
+  "description": "This workspace's own plugin catalog: pins the exact third-party plugin versions X runs, and is where any repo-authored plugin gets listed. Materializes .agents/_pins/plugins/catalog.json for Claude Code — do not edit the Superpowers SHA here without updating the shared catalog.",
+  "owner": {
+    "name": "x"
+  },
+  "plugins": [
+    {
+      "name": "superpowers",
+      "description": "Core skills library: TDD, debugging, collaboration patterns, and proven techniques — pinned, because the Superpowers-First Workflow layers on behaviours Superpowers does not know it promises.",
+      "version": "6.1.1",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/obra/superpowers.git",
+        "sha": "d884ae04edebef577e82ff7c4e143debd0bbec99"
+      }
+    }
+  ]
+}

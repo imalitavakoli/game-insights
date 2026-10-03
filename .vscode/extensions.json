@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "christian-kohler.path-intellisense",
+    "ban.spellright",
+    "val.vscode-continue-inline-comments",
+    "pkief.material-icon-theme",
+    "crystal-spider.jsdoc-generator",
+    "stackbreak.comment-divider",
+    "ms-vscode.vscode-chat-customizations-evaluations"
+  ]
+}
