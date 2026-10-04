@@ -1,4 +1,4 @@
-Explains: v1.4.0
+Explains: v1.5.0
 
 Answers for a person asking why an experimentation reading came out as it did. The shared method is `docs/_games/approach.md` and `docs/_games/log-contract.md`. This page covers only the choices this skill makes.
 
@@ -26,6 +26,10 @@ This skill does not claim an option was available and unused, or that a chosen o
 
 The recommendation is defined in `docs/_games/log-contract.md` under The recommendation. This skill includes it in the confirmation question. The developer's answer is the mapping. This page does not restate the tests.
 
-## Why the reply ends on one question
+## Why every group is on one form
 
-A list of recommendations is not the interview. This skill asks one unmapped group, includes the recommended answer, and waits. The next group is asked after the developer answers.
+A list of recommendations is not the interview. This skill asks every unmapped group on one form. Each question has three options the developer selects. The recommended option is first. The reply waits once.
+
+## Why one clue is enough
+
+One clue, or two clues that name the same construct, recommends that construct. Two clues that name different constructs, or no clue, recommends not enough information. The tests and the cue list stay in the log contract.

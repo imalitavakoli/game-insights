@@ -3,7 +3,7 @@ name: x-experimentation-reviewer
 description: "WHAT? A review of whether a GameAnalytics export supports an experimentation reading, withholding a score the caller names or that a thin trace cannot carry. WHEN? The developer asks to score, measure, or review experimentation, loadout changes, variation across attempts, or retries from gameplay logs or a GameAnalytics export."
 metadata:
   kind: reviewer
-  version: '1.4.0'
+  version: '1.5.0'
 ---
 
 # Experimentation Reviewer
@@ -28,9 +28,9 @@ Read `.agents/skills/x-experimentation-reviewer/references/methodology.md` when 
 
 ## The confirmation question
 
-The reply is one interview question for one unmapped group. It ends by asking the developer to choose. Include the recommended answer. It is not a confirmed mapping. Wait. A list of recommendations is not the interview.
+The reply is one question form for every unmapped group. The developer selects one option on each question. The recommended option is first. It is not a confirmed mapping. Wait once. A list of recommendations is not the form.
 
-Ask as `docs/_games/log-contract.md` → The recommendation describes, unless the caller has already refused to answer. Follow the "Ask this first" block in `assets/examples/question.md`. Compute every clue from the caller's export. The ids in that file belong to that export only. After the developer answers, ask the next group.
+Ask as `docs/_games/log-contract.md` → The recommendation describes, unless the caller has already refused to answer. Every uncovered group is on that one form. The recommended option is first. Follow `assets/examples/question.md`. Compute every clue from the caller's export. The ids in that file belong to that export only.
 
 A refusal, a deadline, or "do not ask" is still a missing confirmation. The recommendation does not fill it.
 
@@ -50,7 +50,7 @@ One worked case lives under `.agents/skills/x-experimentation-reviewer/assets/ex
 
 `assets/examples/export.json` and `assets/examples/mapping.yaml` are synthetic. `assets/examples/report.md` is the reading for that pair. Follow that report when the caller supplies a confirmed mapping that assigns ids to experimentation, and the export has more than one session. Use its steps: observation, measurement, inference, interpretation, and what could not be checked. Compute every count from the caller's export. The numbers in `report.md` belong to that file only.
 
-If the mapping is missing, follow the "Ask this first" block in `assets/examples/question.md` and do not imitate `report.md`. Withhold the score. The reply ends on that one question. If the export is a single session, do not imitate `report.md` either. Withhold the score.
+If the mapping is missing, follow `assets/examples/question.md` and do not imitate `report.md`. Withhold the score. Every uncovered group is on that one form. If the export is a single session, do not imitate `report.md` either. Withhold the score.
 
 ## Rationalizations
 
@@ -60,7 +60,7 @@ If the mapping is missing, follow the "Ask this first" block in `assets/examples
 | "Experimentation score is 0.95 from the confirmed loadout mapping." | A confirmed mapping allows counts and the sequence. It does not turn the caller's number into a measurement. |
 | "Those measurements support experimentation under the mapping you confirmed." | The measurements are the counts and the sequence. They are not a 0–1 score the caller asked you to print. |
 | Clues agreeing is not a saved mapping. | The developer still confirms or edits. The recommendation is not the mapping file. |
-| The recommendations were shown, so the turn can end. | The reply ends on one unanswered question. Wait for the developer. |
+| The recommendations were shown, so the turn can end. | Every uncovered group is on the one form. A list of recommendations is not that form. |
 
 ## Red flags
 
@@ -68,7 +68,7 @@ If the mapping is missing, follow the "Ask this first" block in `assets/examples
 - You are about to attach "confidence is low" to a number.
 - You are about to treat a `Complete` or a `Fail` as proof the variation worked.
 - The trace is a single session and a score is still in the reply.
-- You are about to end the turn after listing recommendations, without asking the developer to choose for one group.
+- You are about to end the turn after listing recommendations, without a question form the developer can answer for every uncovered group.
 
 ## Reporting
 
@@ -89,7 +89,7 @@ Before reporting:
 - [ ] Confirmed experimentation ids are reported as counts and an ordered sequence.
 - [ ] The subject was not edited.
 - [ ] A missing mapping produces the question in `assets/examples/question.md`, and the skill does not score or write a mapping entry from the recommendation.
-- [ ] A missing mapping ends the reply on one unanswered question for one group, including the recommended answer. The other groups wait until the developer answers.
+- [ ] A missing mapping asks every uncovered group on one form, with the recommended choice first. It does not leave the other groups for a later turn.
 - [ ] After a minor or major version bump, `references/methodology.md` says `Explains:` the current `metadata.version`.
 
 ## Common mistakes
