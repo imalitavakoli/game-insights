@@ -1,4 +1,4 @@
-Explains: v1.2.0
+Explains: v1.3.0
 
 Answers for a person asking why an exploration reading came out as it did. The shared method is `docs/_games/approach.md` and `docs/_games/log-contract.md`. This page covers only the choices this skill makes.
 
@@ -21,3 +21,7 @@ The score is the count of mapped optional-area events and how many sessions cont
 ## Why a named goal can carry the score when no reward is named
 
 A goal the mapping names, and the export contains, is enough context for a score. A reward the mapping does not name stays unchecked.
+
+## Why a recommendation is not a mapping
+
+The recommendation is defined in `docs/_games/log-contract.md` under The recommendation. This skill includes it in the confirmation question. The developer's answer is the mapping. This page does not restate the tests.
