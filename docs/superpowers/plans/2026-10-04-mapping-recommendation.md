@@ -549,3 +549,13 @@ Expected: empty diff.
 git add .agents/skills/x-risk-taking-reviewer/SKILL.md .agents/skills/x-risk-taking-reviewer/references/methodology.md .agents/skills/x-risk-taking-reviewer/assets/examples/question.md
 git commit -m "feat(x-risk-taking-reviewer): recommend a mapping answer"
 ```
+
+---
+
+### Review correction
+
+Task 5 inserted `## The confirmation question` after the whole Prerequisites block. That block still said to stop when the risk entry does not name the safer alternative. A missing mapping has no risk entry, so that stop can skip the group question.
+
+The spec’s Review correction governs. The safer-alternative check runs only after the mapping is confirmed. A missing mapping still produces the question in `assets/examples/question.md`. That check has no recommended answer.
+
+`x-risk-taking-reviewer` is `1.2.0`. `references/methodology.md` says `Explains: v1.2.0`.

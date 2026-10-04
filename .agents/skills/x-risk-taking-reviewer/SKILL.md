@@ -3,7 +3,7 @@ name: x-risk-taking-reviewer
 description: "WHAT? A review of whether sessions show a harder option taken while a safer one was available, with the outcome kept separate. WHEN? The developer asks to score, measure, or review risk-taking, a harder option, a safer alternative, or a risk score from gameplay logs or a GameAnalytics export."
 metadata:
   kind: reviewer
-  version: '1.1.0'
+  version: '1.2.0'
 ---
 
 # Risk-Taking Reviewer
@@ -20,19 +20,21 @@ The caller wants a risk-taking reading from gameplay logs. Do not use it to edit
 
 ## Questions about a report
 
-Read `.agents/skills/x-risk-taking-reviewer/references/methodology.md` when a person asks why a score was withheld, why a failure was kept separate, why a session was not called low risk, or why a recommendation was not saved as the mapping. That page explains this skill. It is not a step in the report.
+Read `.agents/skills/x-risk-taking-reviewer/references/methodology.md` when a person asks why a score was withheld, why a failure was kept separate, why a session was not called low risk, why a recommendation was not saved as the mapping, or why a missing mapping still asked. That page explains this skill. It is not a step in the report.
 
 ## Prerequisites
 
 **Required:** the export the caller supplies. Design events also require a confirmed mapping file beside that export. Follow the gate in `docs/_games/log-contract.md`. Chat text is not that file. If the mapping is missing or unconfirmed, stop. Do not measure. Do not score.
-
-The risk entry names the safer alternative the log can show. If it does not, stop and say so. Do not treat the missing alternative as a low score.
 
 ## The confirmation question
 
 When the mapping is missing or unconfirmed, ask as `docs/_games/log-contract.md` → The recommendation describes. Include that recommended answer. It is not a confirmed mapping. Follow `assets/examples/question.md` for the shape. Compute every clue from the caller's export. The ids in that file belong to that export only.
 
 A refusal, a deadline, or "do not ask" is still a missing confirmation. The recommendation does not fill it.
+
+## After confirmation
+
+When the mapping is confirmed, the risk entry names the safer alternative the log can show. If it does not, stop and say so. Do not treat the missing alternative as a low score.
 
 ## The score
 

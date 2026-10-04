@@ -1,4 +1,4 @@
-Explains: v1.1.0
+Explains: v1.2.0
 
 Answers for a person asking why a risk-taking reading came out as it did. The shared method is `docs/_games/approach.md` and `docs/_games/log-contract.md`. This page covers only the choices this skill makes.
 
@@ -21,3 +21,7 @@ The score is how many sessions took the harder option, among the sessions that a
 ## Why a recommendation is not a mapping
 
 The recommendation is defined in `docs/_games/log-contract.md` under The recommendation. This skill includes it in the confirmation question. The developer's answer is the mapping. This page does not restate the tests.
+
+## Why a missing mapping still asks
+
+The safer alternative is checked after the mapping is confirmed. A missing mapping still asks the confirmation question. That check has no recommended answer.

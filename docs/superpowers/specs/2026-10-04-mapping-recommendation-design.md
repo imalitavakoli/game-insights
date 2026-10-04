@@ -115,6 +115,12 @@ Each skill's Validate list gains one item: a missing mapping produces the questi
 
 The ignore-for-another-construct case has no fixture. The agreement rule is the check.
 
+## Review correction
+
+The safer-alternative check runs only after the mapping is confirmed. A missing mapping still produces the group question. That check carries no recommended answer. The same timing applies to a goal or a reward.
+
+`x-risk-taking-reviewer` is `1.2.0` for this correction. `references/methodology.md` says `Explains: v1.2.0`. The `1.1.0` row above is the recommendation change. This correction follows it.
+
 ## Files
 
 - `docs/_games/log-contract.md`
