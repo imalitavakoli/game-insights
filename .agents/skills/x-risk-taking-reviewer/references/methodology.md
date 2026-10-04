@@ -1,4 +1,4 @@
-Explains: v1.2.0
+Explains: v1.3.0
 
 Answers for a person asking why a risk-taking reading came out as it did. The shared method is `docs/_games/approach.md` and `docs/_games/log-contract.md`. This page covers only the choices this skill makes.
 
@@ -25,3 +25,7 @@ The recommendation is defined in `docs/_games/log-contract.md` under The recomme
 ## Why a missing mapping still asks
 
 The safer alternative is checked after the mapping is confirmed. A missing mapping still asks the confirmation question. That check has no recommended answer.
+
+## Why the reply ends on one question
+
+A list of recommendations is not the interview. This skill asks one unmapped group, includes the recommended answer, and waits. The next group is asked after the developer answers.

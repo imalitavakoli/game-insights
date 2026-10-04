@@ -16,13 +16,15 @@ Unchanged: `docs/_games/approach.md`, the mapping-file shape, play style, and th
 
 ## The confirmation question
 
-For each design-id group this analysis needs and the mapping does not already cover, the question shows:
+For each design-id group this analysis needs and the mapping does not already cover, the interview asks one group per reply. The reply ends on that question and waits. It shows:
 
 - The id pattern.
 - One structural observation, and the one construct it points at, or that it points at none.
 - The word clue: each matched cue, one id that contained it, and that cue's construct, or that no cue matched.
 - The recommended answer.
-- The three choices: this construct, ignore for this run, or not enough information.
+- The three choices, asked of the developer: this construct, ignore for this run, or not enough information?
+
+After the developer answers, ask the next uncovered group the same way.
 
 The developer's answer is what gets saved.
 
@@ -120,6 +122,8 @@ The ignore-for-another-construct case has no fixture. The agreement rule is the 
 The safer-alternative check runs only after the mapping is confirmed. A missing mapping still produces the group question. That check carries no recommended answer. The same timing applies to a goal or a reward.
 
 `x-risk-taking-reviewer` is `1.2.0` for this correction. `references/methodology.md` says `Explains: v1.2.0`. The `1.1.0` row above is the recommendation change. This correction follows it.
+
+A missing mapping asks one group per reply. The reply ends on that question and waits. Showing every group's recommendation and stopping is not the interview. Versions for that rule: exploration `1.4.0`, experimentation `1.4.0`, risk-taking `1.3.0`. Each `Explains:` line matches.
 
 ## Files
 

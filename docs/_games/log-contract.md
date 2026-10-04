@@ -99,15 +99,17 @@ A missing confirmation is a missing input. Measurement waits.
 
 ## The recommendation
 
-Gate step 4 asks the developer about each design-id group this analysis needs and the mapping does not already cover. The question shows:
+Gate step 4 is an interview. Ask one design-id group per reply, a group this analysis needs that the mapping does not already cover. The reply ends on that question. Wait for the developer. Do not list the other groups' recommendations and stop.
+
+The question shows:
 
 - The id pattern.
 - One structural observation, and the one construct it points at, or that it points at none.
 - The word clue: each matched cue, one id that contained it, and that cue's construct, or that no cue matched.
 - The recommended answer.
-- The three choices: this construct, ignore for this run, or not enough information.
+- The three choices, asked of the developer: this construct, ignore for this run, or not enough information?
 
-The developer's answer is what gets saved. A recommended construct is written only after the developer confirms it. Ignore is written when the developer confirms ignore. Not enough information writes nothing for that group, so a later run may ask again.
+After the developer answers, ask the next uncovered group the same way. The developer's answer is what gets saved. A recommended construct is written only after the developer confirms it. Ignore is written when the developer confirms ignore. Not enough information writes nothing for that group, so a later run may ask again.
 
 A refusal, a deadline, or "do not ask" is still a missing confirmation. The recommendation does not fill it. Chat text is still not the mapping file.
 

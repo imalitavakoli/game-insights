@@ -1,4 +1,4 @@
-Explains: v1.3.0
+Explains: v1.4.0
 
 Answers for a person asking why an exploration reading came out as it did. The shared method is `docs/_games/approach.md` and `docs/_games/log-contract.md`. This page covers only the choices this skill makes.
 
@@ -25,3 +25,7 @@ A goal the mapping names, and the export contains, is enough context for a score
 ## Why a recommendation is not a mapping
 
 The recommendation is defined in `docs/_games/log-contract.md` under The recommendation. This skill includes it in the confirmation question. The developer's answer is the mapping. This page does not restate the tests.
+
+## Why the reply ends on one question
+
+A list of recommendations is not the interview. This skill asks one unmapped group, includes the recommended answer, and waits. The next group is asked after the developer answers.
