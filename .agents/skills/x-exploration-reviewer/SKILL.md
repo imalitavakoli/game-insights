@@ -3,7 +3,7 @@ name: x-exploration-reviewer
 description: "WHAT? A review of whether a GameAnalytics export supports an exploration reading, withholding a score until the mapping beside the logs is confirmed. WHEN? The developer asks to score, measure, or review exploration, optional areas, off-path play, or curiosity from gameplay logs or a GameAnalytics export."
 metadata:
   kind: reviewer
-  version: '1.4.0'
+  version: '1.5.0'
 ---
 
 # Exploration Reviewer
@@ -32,7 +32,7 @@ If the mapping is missing or unconfirmed, do not measure and do not score. Ask, 
 
 ## Stop when the mapping is missing
 
-The reply is one interview question for one unmapped group. It ends by asking the developer to choose. Include the recommended answer. Wait. A list of recommendations is not the interview.
+The reply is one question form for every unmapped group. The developer selects one option on each question. The recommended option is first. Wait once. A list of recommendations is not the form.
 
 The stop reason is the missing confirmation. Sample size is not that reason. "Too thin" is a result-table check in the log contract, and it applies only after the developer has confirmed the mapping.
 
@@ -43,7 +43,7 @@ The report then contains only:
 - Each design `event_id` as a name pattern, with no behavior attached. Do not call it an area, a return, optional content, or exploration.
 - Schema-known events as category facts only (a progression status, a session length). Do not join them to a design id into a story about what the player did.
 
-Ask one unmapped group, as `docs/_games/log-contract.md` → The recommendation describes, unless the caller has already refused to answer. The reply ends on that question. Include the recommended answer. It is not a confirmed mapping. Follow the "Ask this first" block in `assets/examples/question.md`. Compute every clue from the caller's export. The ids in that file belong to that export only. After the developer answers, ask the next group. A refusal is still a missing confirmation. Do not fill the gap. The report bullets above keep each design id a name pattern. They do not remove the question.
+Ask as `docs/_games/log-contract.md` → The recommendation describes, unless the caller has already refused to answer. Every uncovered group is on that one form. The recommended option is first. It is not a confirmed mapping. Follow `assets/examples/question.md`. Compute every clue from the caller's export. The ids in that file belong to that export only. A refusal is still a missing confirmation. Do not fill the gap. The report bullets above keep each design id a name pattern. They do not remove the form.
 
 ## After confirmation
 
@@ -55,7 +55,7 @@ One worked case lives under `.agents/skills/x-exploration-reviewer/assets/exampl
 
 `assets/examples/export.json` and `assets/examples/mapping.yaml` are synthetic. `assets/examples/report.md` is the reading for that pair. Follow that report when the caller supplies a confirmed mapping that assigns ids to exploration and names a goal or reward, and the export has more than one session. Use its steps: observation, measurement, inference, interpretation, and what could not be checked. Compute every count from the caller's export. The numbers in `report.md` belong to that file only.
 
-If the mapping is missing, follow the "Ask this first" block in `assets/examples/question.md` and [Stop when the mapping is missing](#stop-when-the-mapping-is-missing). Do not imitate `report.md`. The reply ends on that one question. If an exploration entry says `context: missing`, report the missing goal or reward and do not score.
+If the mapping is missing, follow `assets/examples/question.md` and [Stop when the mapping is missing](#stop-when-the-mapping-is-missing). Do not imitate `report.md`. Every uncovered group is on that one form. If an exploration entry says `context: missing`, report the missing goal or reward and do not score.
 
 ## Rationalizations
 
@@ -68,7 +68,7 @@ The baseline run had no skill. It refused a number and still failed. These are t
 | "This session shows an optional cave visit and a return before level one was completed." | An unmapped design id stays a name. It is not given a behavior, and it is not tied to a progression event as a story. |
 | The request said not to ask questions, and the reply asked none. | The gate still requires confirmation. A deadline does not supply it. |
 | Clues agreeing is not a saved mapping. | The developer still confirms or edits. The recommendation is not the mapping file. |
-| The recommendations were shown, so the turn can end. | The reply ends on one unanswered question. Wait for the developer. |
+| The recommendations were shown, so the turn can end. | Every uncovered group is on the one form. A list of recommendations is not that form. |
 
 ## Red flags
 
@@ -77,7 +77,7 @@ The baseline run had no skill. It refused a number and still failed. These are t
 - The request says not to ask, or that there is no time for a mapping file.
 - You are about to explain the stop as sample size while design ids are still unmapped.
 - You are about to call a design id an area, a return, optional content, or exploration.
-- You are about to end the turn after listing recommendations, without asking the developer to choose for one group.
+- You are about to end the turn after listing recommendations, without a question form the developer can answer for every uncovered group.
 
 ## Reporting
 
@@ -94,7 +94,7 @@ Before reporting:
 - [ ] No score appears unless a confirmed mapping assigned ids to exploration and named the goal or reward, or recorded `context: missing` and the report withheld the score for that reason.
 - [ ] No design id is described as a behavior unless that mapping says so.
 - [ ] The stop reason for a missing mapping is the missing confirmation, not the number of events.
-- [ ] A missing mapping ends the reply on one unanswered question for one group, including the recommended answer. The other groups wait until the developer answers.
+- [ ] A missing mapping asks every uncovered group on one form, with the recommended choice first. It does not leave the other groups for a later turn.
 - [ ] A missing mapping produces the question in `assets/examples/question.md`, and the skill does not score or write a mapping entry from the recommendation.
 - [ ] The subject was not edited.
 - [ ] After a minor or major version bump, `references/methodology.md` says `Explains:` the current `metadata.version`.
