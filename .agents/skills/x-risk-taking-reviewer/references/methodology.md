@@ -1,4 +1,4 @@
-Explains: v1.3.0
+Explains: v1.4.0
 
 Answers for a person asking why a risk-taking reading came out as it did. The shared method is `docs/_games/approach.md` and `docs/_games/log-contract.md`. This page covers only the choices this skill makes.
 
@@ -26,6 +26,10 @@ The recommendation is defined in `docs/_games/log-contract.md` under The recomme
 
 The safer alternative is checked after the mapping is confirmed. A missing mapping still asks the confirmation question. That check has no recommended answer.
 
-## Why the reply ends on one question
+## Why every group is on one form
 
-A list of recommendations is not the interview. This skill asks one unmapped group, includes the recommended answer, and waits. The next group is asked after the developer answers.
+A list of recommendations is not the interview. This skill asks every unmapped group on one form. Each question has three options the developer selects. The recommended option is first. The reply waits once.
+
+## Why one clue is enough
+
+One clue, or two clues that name the same construct, recommends that construct. Two clues that name different constructs, or no clue, recommends not enough information. The tests and the cue list stay in the log contract.
