@@ -86,7 +86,7 @@ One entry per id group. The pattern is a prefix the export actually contains. Th
 1. Parse the export.
 2. Separate events the schema already explains from design events.
 3. Group design ids by prefix.
-4. Ask only about groups the mapping does not already cover and that the requested analysis needs. Each answer is one of: this construct, ignore for this run, or not enough information. What the question shows, and how the recommended answer is chosen, is [The recommendation](#the-recommendation).
+4. Ask about every design-id group the mapping does not already cover. A construct review needs all of them. Each answer is one of: this construct, ignore for this run, or not enough information. What the question shows, and how the recommended answer is chosen, is [The recommendation](#the-recommendation).
 5. Show a short summary: which ids will be used, which construct each group feeds, which ids will be ignored, and which conclusions will not be drawn.
 6. Measure only after the developer confirms or edits that summary.
 7. Save the confirmed mapping beside the logs.
@@ -99,27 +99,36 @@ A missing confirmation is a missing input. Measurement waits.
 
 ## The recommendation
 
-Gate step 4 is an interview. Ask one design-id group per reply, a group this analysis needs that the mapping does not already cover. The reply ends on that question. Wait for the developer. Do not list the other groups' recommendations and stop.
+Gate step 4 is one question form. Every design-id group the mapping does not already cover is a question on that form. A construct review needs all of them. Ignore is one of the answers, so a group stays on the form when its clues point elsewhere or when it has no clue. The reply waits once. It does not ask one group and then another group on a later turn. It does not list recommendations and stop.
 
-The question shows:
+Each question shows:
 
 - The id pattern.
 - One structural observation, and the one construct it points at, or that it points at none.
 - The word clue: each matched cue, one id that contained it, and that cue's construct, or that no cue matched.
-- The recommended answer.
-- The three choices, asked of the developer: this construct, ignore for this run, or not enough information?
+- The recommended choice, listed first and labeled recommended.
 
-After the developer answers, ask the next uncovered group the same way. The developer's answer is what gets saved. A recommended construct is written only after the developer confirms it. Ignore is written when the developer confirms ignore. Not enough information writes nothing for that group, so a later run may ask again.
+The developer selects one option. The recommended option is first. The other two follow in this order, skipping the one already placed first: this construct, ignore for this run, not enough information.
+
+- This construct. The skill names it.
+- Ignore for this run. When the clues point at a different construct, the option names that construct.
+- Not enough information.
+
+Writing those three choices as a sentence is not the form. When the session has no question form, the same reply still lists every uncovered group, each with those three options, and waits once.
+
+After the developer answers the form, show the short summary in gate step 5 and wait. The confirmed summary is what gets saved. An edit on that summary replaces the form selection. A construct in the confirmed summary is written. Ignore in the confirmed summary is written. Not enough information writes nothing for that group, so a later run may ask again.
 
 A refusal, a deadline, or "do not ask" is still a missing confirmation. The recommendation does not fill it. Chat text is still not the mapping file.
 
 ### The agreement rule
 
-- Both clues point at this skill's construct. Recommend this construct.
-- Both clues point at one other construct. Recommend ignore for this run, and name the construct they agreed on.
-- Any other case, including one clue, no clue, or a disagreement. Recommend not enough information, and show whichever clues exist.
+A clue is a structural result that points at one construct, or a word clue that names one construct. A structural result that points at none is not a clue. No matched cue is not a clue.
 
-A structural result that points at none is not a clue for any construct. No structural test names risk-taking, so a risk-taking word cue cannot agree with the structure. That case recommends not enough information.
+- One clue, or two clues that name the same construct, recommends that construct. When it is this skill's construct, the recommended option is this construct. When it is another construct, the recommended option is ignore for this run, and the option names that construct.
+- Two clues that name different constructs recommend not enough information. The question shows both clues.
+- No clue recommends not enough information.
+
+No structural test names risk-taking. A risk-taking word cue is still a clue. On its own, it recommends risk-taking for the risk-taking skill. It recommends ignore, naming risk-taking, for another skill. When the structure points at a different construct, the two clues disagree, and the recommendation is not enough information.
 
 ### Groups and the attempt window
 
