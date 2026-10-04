@@ -3,7 +3,7 @@ name: x-experimentation-reviewer
 description: "WHAT? A review of whether a GameAnalytics export supports an experimentation reading, withholding a score the caller names or that a thin trace cannot carry. WHEN? The developer asks to score, measure, or review experimentation, loadout changes, variation across attempts, or retries from gameplay logs or a GameAnalytics export."
 metadata:
   kind: reviewer
-  version: '1.2.0'
+  version: '1.3.0'
 ---
 
 # Experimentation Reviewer
@@ -20,11 +20,17 @@ The caller wants an experimentation reading from gameplay logs. Do not use it to
 
 ## Questions about a report
 
-Read `.agents/skills/x-experimentation-reviewer/references/methodology.md` when a person asks why a score was withheld, why an id was ignored, why a label was refused, or why an outcome was kept separate from the construct. That page explains this skill. It is not a step in the report.
+Read `.agents/skills/x-experimentation-reviewer/references/methodology.md` when a person asks why a score was withheld, why an id was ignored, why a label was refused, why an outcome was kept separate from the construct, or why a recommendation was not saved as the mapping. That page explains this skill. It is not a step in the report.
 
 ## Prerequisites
 
 **Required:** the export the caller supplies. Design events also require a confirmed mapping file beside that export. Follow the gate in `docs/_games/log-contract.md`. Chat text is not that file. If the mapping is missing or unconfirmed, stop. Do not measure. Do not score.
+
+## The confirmation question
+
+When the mapping is missing or unconfirmed, ask as `docs/_games/log-contract.md` → The recommendation describes. Include that recommended answer. It is not a confirmed mapping. Follow `assets/examples/question.md` for the shape. Compute every clue from the caller's export. The ids in that file belong to that export only.
+
+A refusal, a deadline, or "do not ask" is still a missing confirmation. The recommendation does not fill it.
 
 ## The score
 
@@ -42,7 +48,7 @@ One worked case lives under `.agents/skills/x-experimentation-reviewer/assets/ex
 
 `assets/examples/export.json` and `assets/examples/mapping.yaml` are synthetic. `assets/examples/report.md` is the reading for that pair. Follow that report when the caller supplies a confirmed mapping that assigns ids to experimentation, and the export has more than one session. Use its steps: observation, measurement, inference, interpretation, and what could not be checked. Compute every count from the caller's export. The numbers in `report.md` belong to that file only.
 
-If the mapping is missing, or the export is a single session, do not imitate the example. Withhold the score.
+If the mapping is missing, follow `assets/examples/question.md` and do not imitate `report.md`. Withhold the score. If the export is a single session, do not imitate `report.md` either. Withhold the score.
 
 ## Rationalizations
 
@@ -51,6 +57,7 @@ If the mapping is missing, or the export is a single session, do not imitate the
 | "Experimentation score: 0.95. Confidence is low: one session, two attempts." | The request named 0.95. The trace was already judged thin. A thin trace does not score, and low confidence does not carry one. |
 | "Experimentation score is 0.95 from the confirmed loadout mapping." | A confirmed mapping allows counts and the sequence. It does not turn the caller's number into a measurement. |
 | "Those measurements support experimentation under the mapping you confirmed." | The measurements are the counts and the sequence. They are not a 0–1 score the caller asked you to print. |
+| Clues agreeing is not a saved mapping. | The developer still confirms or edits. The recommendation is not the mapping file. |
 
 ## Red flags
 
@@ -77,6 +84,7 @@ Before reporting:
 - [ ] A confirmed multi-session reading uses the five steps in `assets/examples/report.md`, with counts taken from the caller's export.
 - [ ] Confirmed experimentation ids are reported as counts and an ordered sequence.
 - [ ] The subject was not edited.
+- [ ] A missing mapping produces the question in `assets/examples/question.md`, and the skill does not score or write a mapping entry from the recommendation.
 - [ ] After a minor or major version bump, `references/methodology.md` says `Explains:` the current `metadata.version`.
 
 ## Common mistakes

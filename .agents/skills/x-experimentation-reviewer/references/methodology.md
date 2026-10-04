@@ -1,4 +1,4 @@
-Explains: v1.2.0
+Explains: v1.3.0
 
 Answers for a person asking why an experimentation reading came out as it did. The shared method is `docs/_games/approach.md` and `docs/_games/log-contract.md`. This page covers only the choices this skill makes.
 
@@ -21,3 +21,7 @@ The score is how many sessions changed the option the mapping assigns to experim
 ## Why the report will not claim an option was available
 
 This skill does not claim an option was available and unused, or that a chosen option lasted into the attempt. It does not interpret the optional value on a design event.
+
+## Why a recommendation is not a mapping
+
+The recommendation is defined in `docs/_games/log-contract.md` under The recommendation. This skill includes it in the confirmation question. The developer's answer is the mapping. This page does not restate the tests.
