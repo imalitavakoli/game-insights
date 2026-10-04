@@ -4,6 +4,8 @@ When a construct skill asks the developer to confirm a design-id group, the ques
 
 The method lives in the log contract. Exploration, experimentation, and risk-taking point at it. Play style does not ask these questions.
 
+The confirmation question, the agreement rule, the one-group-per-reply paragraph in Review correction, and the recommended answers for `ui:*` and `door:*` in Worked checks are superseded by `2026-10-04-mapping-interview-form-design.md`. The structural tests, the attempt window, and the cue list here still hold.
+
 ## Where it lives
 
 Add `## The recommendation` to `docs/_games/log-contract.md`, after `## The gate`, in that page's existing heading and link style. The section holds the agreement rule, the structural tests, the attempt window, and the cue list.
