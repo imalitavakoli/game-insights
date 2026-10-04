@@ -3,7 +3,7 @@ name: x-risk-taking-reviewer
 description: "WHAT? A review of whether sessions show a harder option taken while a safer one was available, with the outcome kept separate. WHEN? The developer asks to score, measure, or review risk-taking, a harder option, a safer alternative, or a risk score from gameplay logs or a GameAnalytics export."
 metadata:
   kind: reviewer
-  version: '1.0.0'
+  version: '1.1.0'
 ---
 
 # Risk-Taking Reviewer
@@ -20,13 +20,19 @@ The caller wants a risk-taking reading from gameplay logs. Do not use it to edit
 
 ## Questions about a report
 
-Read `.agents/skills/x-risk-taking-reviewer/references/methodology.md` when a person asks why a score was withheld, why a failure was kept separate, or why a session was not called low risk. That page explains this skill. It is not a step in the report.
+Read `.agents/skills/x-risk-taking-reviewer/references/methodology.md` when a person asks why a score was withheld, why a failure was kept separate, why a session was not called low risk, or why a recommendation was not saved as the mapping. That page explains this skill. It is not a step in the report.
 
 ## Prerequisites
 
 **Required:** the export the caller supplies. Design events also require a confirmed mapping file beside that export. Follow the gate in `docs/_games/log-contract.md`. Chat text is not that file. If the mapping is missing or unconfirmed, stop. Do not measure. Do not score.
 
 The risk entry names the safer alternative the log can show. If it does not, stop and say so. Do not treat the missing alternative as a low score.
+
+## The confirmation question
+
+When the mapping is missing or unconfirmed, ask as `docs/_games/log-contract.md` → The recommendation describes. Include that recommended answer. It is not a confirmed mapping. Follow `assets/examples/question.md` for the shape. Compute every clue from the caller's export. The ids in that file belong to that export only.
+
+A refusal, a deadline, or "do not ask" is still a missing confirmation. The recommendation does not fill it.
 
 ## The score
 
@@ -44,7 +50,13 @@ One worked case lives under `.agents/skills/x-risk-taking-reviewer/assets/exampl
 
 `assets/examples/export.json` and `assets/examples/mapping.yaml` are synthetic. `assets/examples/report.md` is the reading for that pair. Follow that report when the caller supplies a confirmed mapping that names a safer alternative, and the export has more than one session. Use its steps: observation, measurement, inference, interpretation, and what could not be checked. Compute every count from the caller's export. The numbers in `report.md` belong to that file only.
 
-If the mapping is missing, the safer alternative is not named, or the export is a single session, do not imitate the example. Withhold the score.
+If the mapping is missing, follow `assets/examples/question.md` and do not imitate `report.md`. Withhold the score. If the safer alternative is not named, or the export is a single session, do not imitate `report.md` either. Withhold the score.
+
+## Rationalizations
+
+| Excuse | Reality |
+| --- | --- |
+| Clues agreeing is not a saved mapping. | The developer still confirms or edits. The recommendation is not the mapping file. |
 
 ## Reporting
 
@@ -65,6 +77,7 @@ Before reporting:
 - [ ] A session that does not show the safer alternative is not scored as low.
 - [ ] A confirmed multi-session reading uses the five steps in `assets/examples/report.md`, with counts taken from the caller's export.
 - [ ] The subject was not edited.
+- [ ] A missing mapping produces the question in `assets/examples/question.md`, and the skill does not score or write a mapping entry from the recommendation.
 - [ ] After a minor or major version bump, `references/methodology.md` says `Explains:` the current `metadata.version`.
 
 ## Common mistakes
