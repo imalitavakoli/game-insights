@@ -1,0 +1,2232 @@
+[
+  {
+    "arrival_ts": 1712000003,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712000000,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000001",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "user"
+    }
+  },
+  {
+    "arrival_ts": 1712000005,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712000002,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000002",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "progression",
+      "event_id": "Start:world1:level1"
+    }
+  },
+  {
+    "arrival_ts": 1712000013,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712000010,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000003",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "design",
+      "event_id": "block:question:hit",
+      "value": 1
+    }
+  },
+  {
+    "arrival_ts": 1712000014,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712000011,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000004",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "resource",
+      "event_id": "Source:coin:block:question",
+      "amount": 1
+    }
+  },
+  {
+    "arrival_ts": 1712000020,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712000017,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000005",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "design",
+      "event_id": "enemy:goomba:stomp",
+      "value": 1
+    }
+  },
+  {
+    "arrival_ts": 1712000025,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712000022,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000006",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "design",
+      "event_id": "powerup:mushroom:collect",
+      "value": 1
+    }
+  },
+  {
+    "arrival_ts": 1712000037,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712000034,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000007",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "design",
+      "event_id": "pipe:enter:bonus",
+      "value": 1
+    }
+  },
+  {
+    "arrival_ts": 1712000041,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712000038,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000008",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "design",
+      "event_id": "area:underground",
+      "value": 18
+    }
+  },
+  {
+    "arrival_ts": 1712000059,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712000056,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000009",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "resource",
+      "event_id": "Source:coin:block:brick",
+      "amount": 10
+    }
+  },
+  {
+    "arrival_ts": 1712000062,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712000059,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-00000000000a",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "design",
+      "event_id": "pipe:exit:overworld",
+      "value": 1
+    }
+  },
+  {
+    "arrival_ts": 1712000071,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712000068,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-00000000000b",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "design",
+      "event_id": "hazard:pit",
+      "value": 1
+    }
+  },
+  {
+    "arrival_ts": 1712000072,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712000069,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-00000000000c",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "resource",
+      "event_id": "Sink:life:hazard:pit",
+      "amount": -1
+    }
+  },
+  {
+    "arrival_ts": 1712000073,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712000070,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-00000000000d",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "progression",
+      "event_id": "Fail:world1:level1",
+      "attempt_num": 1,
+      "score": 0
+    }
+  },
+  {
+    "arrival_ts": 1712000077,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712000074,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-00000000000e",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "progression",
+      "event_id": "Start:world1:level1"
+    }
+  },
+  {
+    "arrival_ts": 1712000092,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712000089,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-00000000000f",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "design",
+      "event_id": "powerup:mushroom:collect",
+      "value": 1
+    }
+  },
+  {
+    "arrival_ts": 1712000102,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712000099,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000010",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "design",
+      "event_id": "enemy:koopa:stomp",
+      "value": 1
+    }
+  },
+  {
+    "arrival_ts": 1712000122,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712000119,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000011",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "design",
+      "event_id": "goal:flagpole",
+      "value": 4000
+    }
+  },
+  {
+    "arrival_ts": 1712000124,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712000121,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000012",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "progression",
+      "event_id": "Complete:world1:level1",
+      "attempt_num": 2,
+      "score": 4800
+    }
+  },
+  {
+    "arrival_ts": 1712000125,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712000122,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000013",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "resource",
+      "event_id": "Source:coin:level:flagpole",
+      "amount": 18
+    }
+  },
+  {
+    "arrival_ts": 1712000131,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712000128,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000014",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "error",
+      "severity": "warning",
+      "message": "audio:nes_apu_underrun"
+    }
+  },
+  {
+    "arrival_ts": 1712000132,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712000129,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000015",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "session_end",
+      "length": 128
+    }
+  },
+  {
+    "arrival_ts": 1712080003,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712080000,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000016",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-2222-4222-8222-222222222222",
+      "session_num": 2,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "user"
+    }
+  },
+  {
+    "arrival_ts": 1712080005,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712080002,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000017",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-2222-4222-8222-222222222222",
+      "session_num": 2,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "progression",
+      "event_id": "Start:world1:level2"
+    }
+  },
+  {
+    "arrival_ts": 1712080015,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712080012,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000018",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-2222-4222-8222-222222222222",
+      "session_num": 2,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "design",
+      "event_id": "area:underground",
+      "value": 25
+    }
+  },
+  {
+    "arrival_ts": 1712080023,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712080020,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000019",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-2222-4222-8222-222222222222",
+      "session_num": 2,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "design",
+      "event_id": "enemy:piranha:stomp",
+      "value": 1
+    }
+  },
+  {
+    "arrival_ts": 1712080037,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712080034,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-00000000001a",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-2222-4222-8222-222222222222",
+      "session_num": 2,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "design",
+      "event_id": "pipe:enter:warpzone",
+      "value": 1
+    }
+  },
+  {
+    "arrival_ts": 1712080042,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712080039,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-00000000001b",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-2222-4222-8222-222222222222",
+      "session_num": 2,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "design",
+      "event_id": "area:warpzone",
+      "value": 6
+    }
+  },
+  {
+    "arrival_ts": 1712080048,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712080045,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-00000000001c",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-2222-4222-8222-222222222222",
+      "session_num": 2,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "design",
+      "event_id": "warp:use:world4",
+      "value": 1
+    }
+  },
+  {
+    "arrival_ts": 1712080049,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712080046,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-00000000001d",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-2222-4222-8222-222222222222",
+      "session_num": 2,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "progression",
+      "event_id": "Fail:world1:level2",
+      "attempt_num": 1,
+      "score": 1200
+    }
+  },
+  {
+    "arrival_ts": 1712080051,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712080048,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-00000000001e",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-2222-4222-8222-222222222222",
+      "session_num": 2,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "progression",
+      "event_id": "Start:world4:level1"
+    }
+  },
+  {
+    "arrival_ts": 1712080063,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712080060,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-00000000001f",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-2222-4222-8222-222222222222",
+      "session_num": 2,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "design",
+      "event_id": "area:overworld",
+      "value": 20
+    }
+  },
+  {
+    "arrival_ts": 1712080074,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712080071,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000020",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-2222-4222-8222-222222222222",
+      "session_num": 2,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "design",
+      "event_id": "enemy:lakitu:hit",
+      "value": 1
+    }
+  },
+  {
+    "arrival_ts": 1712080075,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712080072,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000021",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-2222-4222-8222-222222222222",
+      "session_num": 2,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "resource",
+      "event_id": "Sink:life:hazard:enemy",
+      "amount": -1
+    }
+  },
+  {
+    "arrival_ts": 1712080076,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712080073,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000022",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-2222-4222-8222-222222222222",
+      "session_num": 2,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "progression",
+      "event_id": "Fail:world4:level1",
+      "attempt_num": 1,
+      "score": 800
+    }
+  },
+  {
+    "arrival_ts": 1712080078,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712080075,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000023",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-2222-4222-8222-222222222222",
+      "session_num": 2,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "session_end",
+      "length": 73
+    }
+  },
+  {
+    "arrival_ts": 1712160003,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712160000,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000024",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-3333-4333-8333-333333333333",
+      "session_num": 3,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "user"
+    }
+  },
+  {
+    "arrival_ts": 1712160005,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712160002,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000025",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-3333-4333-8333-333333333333",
+      "session_num": 3,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "progression",
+      "event_id": "Start:world1:level2"
+    }
+  },
+  {
+    "arrival_ts": 1712160014,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712160011,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000026",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-3333-4333-8333-333333333333",
+      "session_num": 3,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "design",
+      "event_id": "area:underground",
+      "value": 40
+    }
+  },
+  {
+    "arrival_ts": 1712160021,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712160018,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000027",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-3333-4333-8333-333333333333",
+      "session_num": 3,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "design",
+      "event_id": "powerup:flower:collect",
+      "value": 1
+    }
+  },
+  {
+    "arrival_ts": 1712160029,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712160026,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000028",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-3333-4333-8333-333333333333",
+      "session_num": 3,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "design",
+      "event_id": "enemy:piranha:fireball",
+      "value": 1
+    }
+  },
+  {
+    "arrival_ts": 1712160035,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712160032,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000029",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-3333-4333-8333-333333333333",
+      "session_num": 3,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "resource",
+      "event_id": "Source:coin:block:question",
+      "amount": 6
+    }
+  },
+  {
+    "arrival_ts": 1712160057,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712160054,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-00000000002a",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-3333-4333-8333-333333333333",
+      "session_num": 3,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "design",
+      "event_id": "pipe:exit:goal",
+      "value": 1
+    }
+  },
+  {
+    "arrival_ts": 1712160065,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712160062,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-00000000002b",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-3333-4333-8333-333333333333",
+      "session_num": 3,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "design",
+      "event_id": "goal:flagpole",
+      "value": 2000
+    }
+  },
+  {
+    "arrival_ts": 1712160067,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712160064,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-00000000002c",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-3333-4333-8333-333333333333",
+      "session_num": 3,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "progression",
+      "event_id": "Complete:world1:level2",
+      "attempt_num": 2,
+      "score": 3200
+    }
+  },
+  {
+    "arrival_ts": 1712160069,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1709251200,
+      "cohort_week": 1711670400,
+      "first_build": "1.0.0",
+      "install_hour": 1711929600,
+      "install_ts": 1711933200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712160066,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-00000000002d",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "11111111-3333-4333-8333-333333333333",
+      "session_num": 3,
+      "user_id": "c0ffee00-0000-4000-8000-000000000001",
+      "v": 2,
+      "category": "session_end",
+      "length": 64
+    }
+  },
+  {
+    "arrival_ts": 1712368003,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1711929600,
+      "cohort_week": 1712275200,
+      "first_build": "1.0.0",
+      "install_hour": 1712361600,
+      "install_ts": 1712365200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712368000,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-00000000002e",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "22222222-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000002",
+      "v": 2,
+      "category": "user"
+    }
+  },
+  {
+    "arrival_ts": 1712368005,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1711929600,
+      "cohort_week": 1712275200,
+      "first_build": "1.0.0",
+      "install_hour": 1712361600,
+      "install_ts": 1712365200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712368002,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-00000000002f",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "22222222-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000002",
+      "v": 2,
+      "category": "progression",
+      "event_id": "Start:world1:level1"
+    }
+  },
+  {
+    "arrival_ts": 1712368016,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1711929600,
+      "cohort_week": 1712275200,
+      "first_build": "1.0.0",
+      "install_hour": 1712361600,
+      "install_ts": 1712365200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712368013,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000030",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "22222222-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000002",
+      "v": 2,
+      "category": "design",
+      "event_id": "area:overworld",
+      "value": 30
+    }
+  },
+  {
+    "arrival_ts": 1712368023,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1711929600,
+      "cohort_week": 1712275200,
+      "first_build": "1.0.0",
+      "install_hour": 1712361600,
+      "install_ts": 1712365200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712368020,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000031",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "22222222-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000002",
+      "v": 2,
+      "category": "design",
+      "event_id": "block:question:hit",
+      "value": 1
+    }
+  },
+  {
+    "arrival_ts": 1712368024,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1711929600,
+      "cohort_week": 1712275200,
+      "first_build": "1.0.0",
+      "install_hour": 1712361600,
+      "install_ts": 1712365200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712368021,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000032",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "22222222-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000002",
+      "v": 2,
+      "category": "resource",
+      "event_id": "Source:coin:block:question",
+      "amount": 1
+    }
+  },
+  {
+    "arrival_ts": 1712368033,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1711929600,
+      "cohort_week": 1712275200,
+      "first_build": "1.0.0",
+      "install_hour": 1712361600,
+      "install_ts": 1712365200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712368030,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000033",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "22222222-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000002",
+      "v": 2,
+      "category": "design",
+      "event_id": "enemy:goomba:hit",
+      "value": 1
+    }
+  },
+  {
+    "arrival_ts": 1712368034,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1711929600,
+      "cohort_week": 1712275200,
+      "first_build": "1.0.0",
+      "install_hour": 1712361600,
+      "install_ts": 1712365200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712368031,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000034",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "22222222-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000002",
+      "v": 2,
+      "category": "resource",
+      "event_id": "Sink:life:hazard:enemy",
+      "amount": -1
+    }
+  },
+  {
+    "arrival_ts": 1712368035,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1711929600,
+      "cohort_week": 1712275200,
+      "first_build": "1.0.0",
+      "install_hour": 1712361600,
+      "install_ts": 1712365200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712368032,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000035",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "22222222-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000002",
+      "v": 2,
+      "category": "progression",
+      "event_id": "Fail:world1:level1",
+      "attempt_num": 1,
+      "score": 200
+    }
+  },
+  {
+    "arrival_ts": 1712368040,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1711929600,
+      "cohort_week": 1712275200,
+      "first_build": "1.0.0",
+      "install_hour": 1712361600,
+      "install_ts": 1712365200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712368037,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000036",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "22222222-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000002",
+      "v": 2,
+      "category": "progression",
+      "event_id": "Start:world1:level1"
+    }
+  },
+  {
+    "arrival_ts": 1712368058,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1711929600,
+      "cohort_week": 1712275200,
+      "first_build": "1.0.0",
+      "install_hour": 1712361600,
+      "install_ts": 1712365200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712368055,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000037",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "22222222-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000002",
+      "v": 2,
+      "category": "design",
+      "event_id": "enemy:goomba:stomp",
+      "value": 1
+    }
+  },
+  {
+    "arrival_ts": 1712368074,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1711929600,
+      "cohort_week": 1712275200,
+      "first_build": "1.0.0",
+      "install_hour": 1712361600,
+      "install_ts": 1712365200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712368071,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000038",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "22222222-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000002",
+      "v": 2,
+      "category": "design",
+      "event_id": "goal:flagpole",
+      "value": 1000
+    }
+  },
+  {
+    "arrival_ts": 1712368076,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1711929600,
+      "cohort_week": 1712275200,
+      "first_build": "1.0.0",
+      "install_hour": 1712361600,
+      "install_ts": 1712365200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712368073,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-000000000039",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "22222222-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000002",
+      "v": 2,
+      "category": "progression",
+      "event_id": "Complete:world1:level1",
+      "attempt_num": 2,
+      "score": 2100
+    }
+  },
+  {
+    "arrival_ts": 1712368077,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1711929600,
+      "cohort_week": 1712275200,
+      "first_build": "1.0.0",
+      "install_hour": 1712361600,
+      "install_ts": 1712365200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712368074,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-00000000003a",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "22222222-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000002",
+      "v": 2,
+      "category": "resource",
+      "event_id": "Source:coin:level:flagpole",
+      "amount": 4
+    }
+  },
+  {
+    "arrival_ts": 1712368079,
+    "country_code": "JP",
+    "continent": "AS",
+    "game_id": 100001,
+    "user_meta": {
+      "cohort_month": 1711929600,
+      "cohort_week": 1712275200,
+      "first_build": "1.0.0",
+      "install_hour": 1712361600,
+      "install_ts": 1712365200,
+      "origin": "organic"
+    },
+    "device_info": {
+      "brand": "Samsung",
+      "model": "SM-G991B",
+      "display_resolution": "1080x2400"
+    },
+    "data": {
+      "build": "1.0.0",
+      "client_ts": 1712368076,
+      "connection_type": "wifi",
+      "country_code": "JP",
+      "device": "SM-G991B",
+      "event_uuid": "a1000000-0000-4000-8000-00000000003b",
+      "manufacturer": "samsung",
+      "os_version": "android 14",
+      "platform": "android",
+      "sdk_version": "android 7.3.2",
+      "session_id": "22222222-1111-4111-8111-111111111111",
+      "session_num": 1,
+      "user_id": "c0ffee00-0000-4000-8000-000000000002",
+      "v": 2,
+      "category": "session_end",
+      "length": 74
+    }
+  }
+]

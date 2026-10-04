@@ -45,3 +45,7 @@ desktop.ini
 
 # OBS
 /_OBS/**/__*
+
+# gh-pages files
+_assets
+index.html

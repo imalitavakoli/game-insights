@@ -1,0 +1,33 @@
+- pattern: "pipe:enter:bonus"
+  meaning: pipe into the coin room
+  construct: exploration
+  goal: "Complete:world1:level1"
+- pattern: "pipe:enter:warpzone"
+  meaning: pipe into the warp room
+  construct: exploration
+  goal: "Complete:world1:level2"
+- pattern: "area:warpzone"
+  meaning: warp room
+  construct: exploration
+  goal: "Complete:world1:level2"
+- pattern: "powerup:*"
+  meaning: equipped power
+  construct: experimentation
+- pattern: "warp:use:*"
+  meaning: harder option
+  construct: risk-taking
+  safer: "pipe:exit:goal"
+- pattern: "block:*"
+  meaning: ignore
+- pattern: "enemy:*"
+  meaning: ignore
+- pattern: "hazard:*"
+  meaning: ignore
+- pattern: "goal:*"
+  meaning: ignore
+- pattern: "pipe:exit:*"
+  meaning: ignore
+- pattern: "area:overworld"
+  meaning: ignore
+- pattern: "area:underground"
+  meaning: ignore
