@@ -2,29 +2,29 @@
 
 Skills that help an AI agent turn gameplay telemetry into a reading a designer can check.
 
-Two audiences: a [studio](#studio) getting a reading, and a [contributor](#contributor) changing this repo.
+Two audiences: a [game studio](#game-studio) getting a reading, and a [contributor](#contributor) changing this repo.
 
-## Studio
+## Game Studio
 
 You do not install this repo's packages. The game skills are the files under `.agents/skills/`.
 
-1. Clone the repository.
-2. Open this folder as the agent's workspace.
-3. Install the agent you use, if it is not installed yet. Claude Code and Cursor Cloud use the Superpowers pin in this repo. Cursor on your own machine uses Superpowers' own install, which [Setting up the repository](docs/getting-started/setting-up-the-repository.md) links to.
+1. Install the agent you use, if it is not installed yet. Claude, Cursor, Codex, and other agents that read skills from an open folder.
+2. Clone the repository.
+3. Open this folder as that agent's workspace, and start a conversation.
 
 ### Get a reading
 
-1. Bring a GameAnalytics export: one JSON object per event. The [log contract](docs/_games/log-contract.md) is the shape.
-2. Confirm the mapping once, and save that file beside the export. The agent asks only about design event ids. You say which ids are exploration, risk-taking, or experimentation, or that they should be ignored. A sentence in the chat is not the mapping file. A later run asks only about ids the file does not already cover.
+1. Bring a GameAnalytics export: Each event inside that file is its own JSON object. Our [log contract](docs/_games/log-contract.md) is the shape.
+2. A mapping is a file that says what each design event means. Confirm the mapping once, and save that file beside the export. The agent asks only about design event ids. You say which ids are exploration, risk-taking, or experimentation, or that they should be ignored.
 3. Ask for exploration, risk-taking, and experimentation in any order. Each one reads the same export and the same mapping.
 4. Ask for play style only after those three readings exist. Give it the three readings and the same export.
 
-| Ask for | The mapping must already say | You get a score when |
-| --- | --- | --- |
-| Exploration | which ids are optional or off-path, and the goal or reward | that goal or reward is in the sessions. If it is absent, the report says so and does not score |
-| Risk-taking | which id is the harder option, and the safer alternative | more than one session shows the safer alternative. A failure is not the score |
-| Experimentation | which ids can change between attempts | there is more than one session. A later win is not the score |
-| Play style | nothing further. It does not re-read design events | all three readings are in hand. It keeps them side by side with progression and resource counts, and it does not produce one style number |
+| Ask for         | The mapping must already say                               | You get a score when                                                                                                                      |
+| --------------- | ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| Exploration     | which ids are optional or off-path, and the goal or reward | that goal or reward is in the sessions. If it is absent, the report says so and does not score                                            |
+| Risk-taking     | which id is the harder option, and the safer alternative   | more than one session shows the safer alternative. A failure is not the score                                                             |
+| Experimentation | which ids can change between attempts                      | there is more than one session. A later win is not the score                                                                              |
+| Play style      | nothing further. It does not re-read design events         | all three readings are in hand. It keeps them side by side with progression and resource counts, and it does not produce one style number |
 
 If one of those three readings is missing, play style stops.
 
